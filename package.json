@@ -7,7 +7,7 @@
     "start": "ts-node eliza-ai-agent/src/index.ts",
     "build": "tsc",
     "test": "jest",
-    "dev": "ts-node eliza-ai-agent/src/index.ts"
+    "dev": "ts-node --esm eliza-ai-agent/src/index.ts"
   },
   "dependencies": {
     "axios": "^1.6.2",
