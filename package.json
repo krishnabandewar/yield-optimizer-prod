@@ -2,11 +2,12 @@
   "name": "yield-optimizer",
   "version": "1.0.0",
   "description": "DeFi Yield Optimizer with ElizaOS AI Agent",
-  "main": "src/elizaAgent.ts",
+  "main": "eliza-ai-agent/src/index.ts",
   "scripts": {
-    "start": "ts-node src/elizaAgent.ts",
+    "start": "ts-node eliza-ai-agent/src/index.ts",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "dev": "ts-node eliza-ai-agent/src/index.ts"
   },
   "dependencies": {
     "axios": "^1.6.2",
